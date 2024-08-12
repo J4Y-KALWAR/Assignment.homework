@@ -1,0 +1,13 @@
+div{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 10px;
+}
+img{
+    height: 600px;
+    width: 934px;
+    object-fit: contain;
+
+
+}

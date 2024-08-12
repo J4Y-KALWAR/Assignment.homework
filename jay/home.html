@@ -1,0 +1,283 @@
+<html>
+    <head>
+        <title>My website</title>
+        <style>
+             table {
+           height:100px;
+           margin:20px;
+           width: 30%;
+           border: 2px dashed white;
+       }
+       th, td {
+           border: 2px solid white;
+           padding: 12px;
+
+       }
+       th {
+           background-color: skyblue;
+       }
+       td{
+         background-color: grey;
+       }
+       .paragraph{
+        background-color:cornflowerblue;
+       }
+       .imp{
+        color:pink;
+       }
+        </style>
+    </head>
+    <body>
+
+        <h1 id="section 1">Section 1</h1>
+        1. Basic Structure:
+o Create a simple HTML document with a title, a heading, and a paragraph.<br>
+        <h1>The Joy and Benefits of Exploring New Places</h1><br>
+            <p>
+    Exploring new places is an enriching endeavor that offers numerous benefits and opportunities for growth. By planning carefully, staying open-minded, and respecting local customs, you can make the most of your travels and create lasting memories. Whether you prefer historical sites, natural wonders, urban settings, or hidden gems, there's always something new and exciting to discover.
+</p>
+<br>
+2. Headings:<br>
+o Create a web page using all six levels of HTML headings (h> to h6). Notice the difference in sizes.<br>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<br>
+3. Paragraphs:
+o Add three paragraphs to a web page. Make sure each paragraph has a different 
+amount of text.<br>
+
+<p> Beautiful place: Santorini is a stunning island in the Aegean Sea, part of the Cyclades group of islands. It is known for its whitewashed buildings, blue-domed churches, and breathtaking sunsets. The island's unique landscape was shaped by a volcanic eruption around 3,600 years ago.</p><br>
+<p> Boredom activities: When boredom hits, it can be a great chance to delve into activities that ignite your creativity or help you learn something new. <br>You might consider exploring artistic pursuits like drawing or painting, which allow for personal expression and can be incredibly satisfying. Writing is another fulfilling option; you could start a journal, craft short stories, or even experiment with poetry. </p><br>
+<p>Novel: It Ends with Us by Colleen Hoover is a poignant and emotionally charged novel that follows Lily Bloom, a young woman who starts a new chapter in her life after moving to Boston. She meets and falls in love with Ryle Kincaid, a neurosurgeon with a complex past. As their relationship deepens, Lily faces conflicting emotions and moral dilemmas, particularly when her past lover, Atlas Corrigan, reappears.<br> The novel explores themes of love, resilience, and the difficult choices one must make when confronting the complexities of relationships and personal growth. <br>Through its compelling narrative, It Ends with Us challenges readers to consider the impact of love and the strength required to break free from unhealthy patterns.</p><br>
+
+4. Links:<br>
+o Create a hyperlink that links to an external website (e.g., 
+https://www.triton.com.np). Add text for the link.<br>
+
+<a href="https://www.youtube.com/">Youtube</a><br>
+5. Images:
+o Add an image to a web page using the <img> tag. Use the alt attribute to 
+describe the image.<br>
+<img src="drama.jpg" alt="chinese drama"><br>
+
+<h1 id="section 2">Section 2</h1>
+6. Lists:<br>
+o Create an ordered list and an unordered list, each with at least three items.<br>
+<p>Food</p>
+<ol>
+    <li>Dumpling</li>
+    <li>Mushroom</li>
+    <li>Donut</li>
+</ol>
+<p>Juice</p>
+<ul>
+    <li>Orange juice</li>
+    <li>Milkshake</li>
+    <li>Fanta</li>
+</ul>
+<br>
+7. Tables:<br>
+o Create a table with three rows and three columns. Include a header row with 
+column titles using the th tag. Use td for table data cells.<br>
+<table>
+    <thead><tr>
+    <th colspan="3"></th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+</tbody>
+</table>
+
+8. Forms:
+o Create a simple form with text input, checkbox, radio button, and submit button. 
+Label each input appropriately.<br>
+<form>
+    <label for="hi">Name:</label>
+    <input id="hi" type="text" placeholder="Enter your name"><br>
+   <p>subject:<label>Computer</label>
+    <input type="checkbox">
+    <label>Science</label>
+    <input type="checkbox">
+    <label>Math</label>
+    <input type="checkbox">
+    <label>Nepali</label>
+    <input type="checkbox">
+</p>
+<div>
+    Profession:
+<label>Doctor</label>
+    <input name="profession" type="radio">
+    <label>Teacher</label>
+    <input name="profession" type="radio">
+    <label>Hacker</label>
+    <input name="profession" type="radio">
+</div><br>
+<input type="submit" value="Submit"> 
+</form>
+
+9. Attributes:
+o Use various attributes in your HTML elements. Create a link with href, an image 
+with src and alt, and a form input with type.<br>
+
+<a href="https://www.google.com" target="_blank"></a><br>
+<h2>Your Name</h2>
+<img src="image.jpeg" alt="your name"><br>
+<p>You like this photo or not</p>
+<label>Yes</label>
+    <input name="1" type="radio"><br>
+    <label>No</label>
+    <input name="1" type="radio"><br>
+<h1 id="section 3">Section 3</h1>
+
+10. Divs and Spans:
+o Use div tags to create sections or containers on a web page. 
+o Use span tags to style parts of text within a paragraph.<br><br>
+
+<div class="paragraph">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut,<span class="imp">error</span> . Consequatur, numquam? Blanditiis quod earum iste tempore debitis repellat aliquid quidem voluptate ducimus,<span class="imp">pariatur laboriosam natus commodi minima eos? Mollitia</span>?
+</div><br>
+
+11. Inline vs Block Elements:
+o Create a web page demonstrating the difference between inline and block-level 
+elements. Include examples such as <span> and <div>.
+    <p>The difference between Inline and Block-level elements.
+        Inline elements do not start on a new line and only take up as much width as necessary. They are typically used for smaller chunks of content within a block-level element.
+        Behavior: They do not force a line break and can have other inline elements within them.
+        some examples are <code>&lt;a&gt;</code>,<code>&lt;span&gt;</code>,<code>&lt;image&gt;</code>,<code>&lt;strong&gt;</code>.
+            <br>
+
+            Block-level elements start on a new line and take up the full width available (by default). They are used for larger sections of content.
+Behavior: They always start on a new line and can contain other block-level or inline elements.
+some examples are: <code>&lt;div&gt;</code>,<code>&lt;p&gt;</code>,<code>&lt;ul&gt;</code>.
+    <br>   
+    </p><br>
+
+12. Links within the Same Page:
+o Create links that navigate to different sections of the same web page using the 
+anchor links.<br><br>
+<a href="#section1">Go to Section 1</a><br>
+<a href="#section 2">Go to section 2</a><br>
+<a href="#section 3">Go to section 3</a><br>
+
+13. HTML Entities:
+o Use HTML entities to display special characters such as &,<, >, ", and © on a 
+web page.<br>
+<div>
+<p>ampersand=&amp;</p>
+<p>less than sign=&lt; </p>
+<p>Greater than sign= &gt;</p>
+<p> double quotation mark=&quot;</p>
+<p>copyright symbol= &copy;</p>
+</div>
+
+14. Forms with Different Input Types:
+o Create a form that includes different types of inputs: text, password, email, 
+number, and date. Label each input field appropriately.
+<h2> A form</h2>
+<label for="cloud">Place:</label>
+    <input id="cloud" type="text" placeholder="Your favorite place"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="njsw@764gmail.com" ><br>
+
+    <label for="doramon">Password:</label>
+        <input type="password" id="doramon" placeholder="hello123"><br>
+
+        <label for="number">Number:</label>
+        <input type="number" id="number" placeholder="(0-50)"><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" placeholder="date/month/year"><br>
+
+        <input type="submit" value="Submit"><br>
+
+15. Form Validation:
+o Add basic form validation using HTML attributes such as required, minlength, 
+maxlength, min, max, and pattern.<br>
+
+<label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="hswg@865gmail.com" required 
+               minlength="5" maxlength="50"><br>
+
+               <label for="number">Number (1-50):</label><br>
+        <input type="number" id="number" name="number" required 
+               min="1" max="50"><br><br>
+
+               <label for="username">Username (letters and numbers only, 5-15 characters):</label><br>
+        <input type="text" id="username" name="username" required 
+               minlength="5" maxlength="15" pattern="[A-Za-z0-9]+"><br><br>
+
+               <input type="submit" value="Submit"><br>
+
+16. Comments:
+o Add comments to your HTML code to describe the structure and purpose of 
+different sections. Use the <!-- --> syntax for comments.<br>
+<!--This is the comment use in html.-->
+
+<h2>IT ENDS WITH US</h2>
+<!--"It Ends with Us" is a contemporary romance novel written by Colleen Hoover, published in 2016.<br>
+ The novel delves into complex themes such as love, domestic violence, and personal growth.-->
+ <p>Plot Summary
+The story follows Lily Bloom, a young woman who moves to Boston and starts her own floral business. She meets and falls in love with a charming neurosurgeon named Ryle Kincaid.<br>
+ However, as their relationship deepens, Ryle's dark side emerges, revealing a history of anger issues and violent tendencies.
+
+Lily's past is interwoven with her present when she reconnects with her first love, Atlas Corrigan. <br>
+Atlas, who once provided her with solace and support during her troubled teenage years, reappears, complicating her feelings and decisions.
+
+The novel has not only entertained but also educated its audience, shedding light on the realities of abusive relationships and the strength required to break free from them. It has inspired many readers to share their own stories and seek support, making it a significant work in contemporary fiction.
+
+<!--"It Ends with Us" remains one of Colleen Hoover's most impactful works, continuing to garner attention and provoke thought long after its initial publication.-->
+</p><br>
+
+17. Iframes:<br>
+o Embed another web page within your page using the iframe tag. Set the src 
+attribute to the URL of the page you want to embed.<br>
+<iframe src="https://th.bing.com/th/id/OIP.Axkj_u7wnM59jbd-7EzJhQHaEK?rs=1&pid=ImgDetMain" width="600" height="400" frameborder="0" allowfullscreen>
+   nobita &sizuka</iframe><br>
+</body>
+</html>
+
+21. Recreate the following form using HTML :
+Hint - Use the following :
+- Text Input for Name 
+- Radio Button for Sex 
+- Give Options : Nepal, India, USA, Canada for Country<br>
+
+<label for="name" >Name:</label>
+<input id="name" type="text"><br>
+<p>   
+<label>Sex:</label><br>
+<label>Female</label>
+<input type="radio" name="sex"><br>
+<label>Male</label>
+<input type="radio" name="sex"><br>
+<label>Country</label>
+<label>Nepal</label>
+<input type="radio" name="Country"><br>
+<label>India</label>
+<input type="radio" name="Country"><br>
+<label>USA</label>
+<input type="radio" name="Country"><br>
+<label>Canada</label>
+<input type="radio" name="Country"><br>
+
+</p>
